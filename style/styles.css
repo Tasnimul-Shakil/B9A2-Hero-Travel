@@ -3,9 +3,9 @@
   font-family: "Mulish", sans-serif;
 }
 body {
-  /* max-width: 1440px; */
-  margin: 0px 135px;
-  padding: 0;
+  max-width: 1920px;
+  margin: 0px auto;
+  padding: 0px 100px;
   box-sizing: border-box;
 }
 .button-primary {
@@ -76,6 +76,7 @@ nav ul li a:hover {
   color: #ff5400;
   font-weight: 800;
 }
+/* banner section */
 .banner {
   display: flex;
   flex-direction: column;
@@ -128,9 +129,44 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: normal;
 }
+/* popular-tour-section*/
+
+.popular-tour-section {
+  margin: 100px auto !important;
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  width: 100%;
+}
+.popular-tour-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131318;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.popular-tour-description {
+  max-width: 676px;
+  margin-bottom: 48px;
+  margin-top: 0px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(19, 19, 24, 0.7);
+  text-decoration: none;
+  transition: 0.5s;
+}
+#tour-image {
+  width: 540px;
+  height: 550px;
+  flex-shrink: 0;
+}
+
+/* small screen */
+
 @media screen and (max-width: 600px) {
   body {
     margin: 0px 20px;
+    padding: 0px 20px;
   }
   .header {
     padding: 0;
@@ -139,7 +175,6 @@ nav ul li a:hover {
   .logo {
     margin: 0;
   }
-
   nav ul {
     display: none;
   }
@@ -151,5 +186,62 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     position: relative;
   }
-  
+  .banner-title {
+    font-size: 2rem;
+  }
+  .travel-info {
+    display: flex;
+    width: 350px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .input-box {
+    width: 100%;
+  }
+  .button-primary {
+    width: 100%;
+  }
+  .popular-tour-section {
+    margin: 25px auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .popular-tour-title {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+  .popular-tour-description {
+    font-size: 1rem;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    max-width: 100%;
+  }
+  #tour-image {
+    width: 100%;
+  }
 }
+/* tab screen */
+
+/* @media screen and (min-width: 600px) and (max-width: 992px) {
+  body {
+    margin: 0px 80px;
+  }
+  nav > ul > li {
+    margin: 0 5px;
+  }
+  .banner {
+    height: 300px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-description {
+    font-size: 1rem;
+  }
+  .travel-info {
+    padding: 10px 5px;
+  }
+} */
