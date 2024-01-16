@@ -305,7 +305,6 @@ nav ul li a:hover {
 
 .newsletter {
   margin: 100px auto;
-  text-align: center;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -322,7 +321,51 @@ nav ul li a:hover {
   gap: 20px;
 }
 .newsletter-img {
-  width: 55%;
+  position: relative;
+  width: 60%;
+}
+.newsletter-img img {
+  width: 100%;
+  height: 100%;
+}
+.inputbox {
+  border-radius: 10px;
+  /* width: 174px;*/
+  height: 52px;
+  padding: 20px;
+  border: none !important;
+  background-color: #e3e3e3;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.news-title {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.news-button {
+  width: 100%;
+  height: 72px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.news-discount {
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 400;
+  right: 11px;
+  bottom: 86px;
+  width: 324px;
+  height: 120px;
+  transform: rotate(326deg);
+}
+.save {
+  font-size: 1.8rem;
+  font-weight: 800;
 }
 
 /* small screen */
@@ -425,6 +468,23 @@ nav ul li a:hover {
     top: 150px;
     padding: 30px;
     width: 80%;
+  }
+  .newsletter {
+    margin: 56px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .newsletter-from {
+    width: auto !important;
+  }
+  .newsletter-img {
+    width: 100% !important;
+  }
+  .news-discount {
+    width: auto !important;
+    height: 89px;
   }
 }
 /* tab screen */
