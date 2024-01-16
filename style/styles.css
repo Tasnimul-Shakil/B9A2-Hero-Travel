@@ -2,7 +2,7 @@
 * {
   font-family: "Mulish", sans-serif;
 }
-body {
+.wrapper {
   max-width: 1920px;
   margin: 0px auto;
   padding: 0px 100px;
@@ -42,6 +42,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   /* width: 100%; */
   /* max-width: 1920px;
   margin: 0px auto;
@@ -415,7 +416,7 @@ nav ul li a:hover {
 /* small screen */
 
 @media screen and (max-width: 600px) {
-  body {
+  .wrapper {
     margin: 0px 20px;
     padding: 0px 20px;
   }
