@@ -383,6 +383,10 @@ nav ul li a:hover {
 /* footer style */
 
 .footer {
+  /* max-width: 1920px;
+  margin: 0px auto;
+  padding: 0px 100px;
+  box-sizing: border-box; */
   background: #c7c7c7;
   padding-top: 50px;
   text-align: center;
@@ -536,6 +540,9 @@ nav ul li a:hover {
   .news-discount {
     width: auto !important;
     height: 89px;
+  }
+  .footer-info {
+    margin: 20px 40px;
   }
 }
 /* tab screen */
