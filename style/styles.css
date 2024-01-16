@@ -43,12 +43,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  /* width: 100%; */
-  /* max-width: 1920px;
-  margin: 0px auto;
-  padding: 0px 100px;
-  box-sizing: border-box; */
 }
 nav {
   display: flex;
@@ -347,7 +341,6 @@ nav ul li a:hover {
 }
 .inputbox {
   border-radius: 10px;
-  /* width: 174px;*/
   height: 52px;
   padding: 20px;
   border: none !important;
@@ -387,10 +380,6 @@ nav ul li a:hover {
 /* footer style */
 
 .footer {
-  /* max-width: 1920px;
-  margin: 0px auto;
-  padding: 0px 100px;
-  box-sizing: border-box; */
   background: #c7c7c7;
   padding-top: 50px;
   text-align: center;
