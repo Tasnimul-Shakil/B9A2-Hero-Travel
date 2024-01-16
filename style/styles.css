@@ -29,6 +29,7 @@
 }
 .logo {
   display: flex;
+  align-items: center;
   width: 100%;
   margin: 10px;
   overflow: hidden;
@@ -102,6 +103,9 @@ nav ul li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+}
+.fa-solid {
+  padding: 0 15px 0px 0px;
 }
 .banner-title {
   margin-bottom: 24px;
@@ -424,10 +428,10 @@ nav ul li a:hover {
     margin: 0px 20px;
     padding: 0px 20px;
   }
-  /* .footer {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  } */
+  .footer {
+    margin: 0px;
+    padding: 0px;
+  }
   .header {
     padding: 0;
     margin: 0%;
